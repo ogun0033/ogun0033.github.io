@@ -1,0 +1,40 @@
+body{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Geneva, Tahoma, sans-serif;
+font-size: 18px;
+}
+
+header, footer{
+    background-color: rgb(214, 255, 183);
+}
+.site-title{
+    color:rgb(255, 0, 0)
+}
+#my-image{
+    box-shadow: 0 0 2px 1px black;
+}
+aside ul{
+    list-style-type: square;
+}
+
+aside li:nth-child(odd){background-color: rgb(255, 0, 0);
+}
+
+nav ul{
+    list-style-type: none;
+}
+nav ul a{
+    text-decoration: none;
+}
+
+nav ul a,
+nav ul a:link,
+nav ul a:visited{
+    background-color: rgb(255, 0, 0);
+    box-shadow: 2px 2px 4px 2px black;
+}
+nav ul a:hover,
+nav ul a:focus{
+    background-color: seashell;
+}
+nav ul a:active{
+    box-shadow: 0 0 4px 2px rgb(255, 0, 0);
+}
