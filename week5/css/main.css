@@ -111,3 +111,33 @@ table td:nth-child(n) {
 table td:nth-child(2n+1) {
     background-color: rgba(0, 0, 0, 0.2);
 }
+
+/* 
+  CSS Specificity
+  Formula: inline-styles id class tag-name
+*/
+
+/* 0001 */
+footer {
+    background-color: aqua;
+  }
+  
+  /* 0001 */
+  footer {
+    background-color: red;
+  }
+  
+  
+  /* 0002 */
+  body footer {
+    background-color: orange;
+  }
+  
+  /* 0010 */
+  .site-footer {
+    background-color: cornflowerblue;
+  }
+  
+  /* 0011 */
+  footer.site-footer {
+    background-color: teal;
