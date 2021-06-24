@@ -1,0 +1,184 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* This is the beginning of my css style */
+
+/* Styling the header  */
+body {
+         background-color: #aad4cf;
+     font-family: Arial, Helvetica, sans-serif;
+     }
+
+ .image{
+         position: relative;
+         text-align: center;
+     }
+ 
+.text{
+    position: absolute;
+    top: 320px;
+    left: 600px;
+    font-size: 50px;
+    color: #fff;
+}
+
+
+/* Styling the navigation */
+ nav ul{
+    list-style: none;
+}
+
+nav ul a{
+    color: inherit;
+    text-decoration: none;
+}
+
+nav ul a,
+nav ul a:link,
+nav ul a:visited{
+    background-color: inherit;
+   }
+
+nav ul a:hover,
+nav ul a:focus{
+    text-decoration: underline;
+}
+
+nav ul a:active{
+    box-shadow: 0 0 4px 2px black;
+}
+
+nav ul li{
+    display: inline;
+    padding-right: 300px;
+    border-right: 1px solid #000;
+    margin-left: 100px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 30px;
+    font-size: 20px;
+}
+nav ul li:last-child{
+    border-right: none;
+}
+
+/* Styling the h2 headings */
+h2{
+    font-weight: bold;
+    line-height: 30px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+
+/* additional style to h2 heading with class title */
+.title{
+    margin-top: 20px;
+}
+
+/* adding image to article and wrapping text around the image */
+img{float: left;
+    width: 150px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+/* styling the paragraph */
+p{
+    font-size: 20px;
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+/* styling the list in the article */
+ul li{
+    list-style-type: disc;
+    padding-left: 5px;
+    margin-left: 30px;
+    line-height: 20px;
+}
+
+/* adding additional style to headings with class special-style */
+.special-style{
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+/* styling the form */
+
+div {
+    border-radius: 5px; 
+    padding: 10px
+
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    resize: none;
+}
+
