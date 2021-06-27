@@ -134,9 +134,20 @@ table {
     border-spacing: 0;
 }
 
+/* Box sizing styling */
+html{
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after{
+    box-sizing: inherit;
+  }
+
+
 /* This is the beginning of the css style */
 
-/* Styling the header  */
+/* Styling the body */
 body {
     background-color: #aad4cf;
     font-family: Arial, Helvetica, sans-serif;
@@ -148,26 +159,34 @@ body {
     margin: 0 auto;
 }
 
-.header-container {
+img {
     width: 100%;
-    height: 100%;
 }
 
-.header-image {
+
+/* Styling the header */
+.header-container{
+    width: 100%;
     position: relative;
-    width: 100%;
-    height: 100%;
-}
-
-.header-text {
+    margin: 0 auto;
+  }
+  
+/* Styling the text on the image */
+.header-text{
     position: absolute;
-    top: 250px;
-    left: 600px;
+    top: 65%;
+    left: 35%;
     font-size: 50px;
     color: #fff;
-}
+    width: 100%;
+  }
 
 
+  .header-image{
+    width:100%;
+    display: block;
+  } 
+  
 /* Styling the navigation */
 nav ul {
     list-style: none;
@@ -176,6 +195,7 @@ nav ul {
 nav ul a {
     color: inherit;
     text-decoration: none;
+    display: block;
 }
 
 /* Setting the LoVe Hate State */
@@ -195,14 +215,16 @@ nav ul a:active {
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
     padding-right: 200px;
     border-right: 1px solid #000;
-    margin-left: 100px;
+    margin-top: 3px;
+    margin-left: 120px;
     text-align: center;
     font-weight: bold;
     line-height: 30px;
     font-size: 20px;
+    box-sizing: border-box;
 }
 
 nav ul li:last-child {
@@ -218,12 +240,34 @@ h2 {
 }
 
 /* adding image to article and wrapping text around the image */
+
+.float-container{
+width: 99%;
+margin: 0 auto;
+box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
 .article-image {
     float: left;
     width: 150px;
     padding: 10px;
     margin-left: 10px;
-    margin-right: 20px;
+    margin-right: 5px;
+}
+
+/* styling the paragraph */
+p {
+    font-size: 13px;
+    line-height: 25px;
+    margin-left: 10px;
+    margin-right: 30px;
 }
 
 /* additional style to h2 heading with class title */
@@ -232,18 +276,10 @@ h2 {
 }
 
 
-
-/* styling the paragraph */
-p {
-    font-size: 20px;
-    line-height: 25px;
-    margin-left: 10px;
-}
-
 /* styling the list in the article */
 ul li {
     list-style-type: disc;
-    padding-left: 5px;
+    font-size: 13px;
     margin-left: 30px;
     line-height: 20px;
 }
@@ -258,7 +294,7 @@ ul li {
 
 .form-border {
     margin: 0 auto;
-    width: 95%;
+    width: 98%;
     padding: 20px;
     border: 1px solid black;
 }
