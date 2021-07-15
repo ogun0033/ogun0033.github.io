@@ -48,9 +48,9 @@ table {
 }
 
 
-/* --------------------------------------------------------------------------------------------------------------------------------------
+/* -----------------------------------------------------------------
                                     Custom Styles
------------------------------------------------------------------------------------------------------------------------------------------ */
+----------------------------------------------------------------- */
 
 html {
 font-family: Arial, Helvetica, sans-serif;
@@ -58,7 +58,7 @@ font-size: 14px;
 box-sizing: border-box;
 }
 *,
-*::after
+*::after,
 *::before{
     box-sizing: inherit;
 }
@@ -151,7 +151,29 @@ p{
     text-align: center;
 }
 
-/* ---------------Mobile app section */
+/* ---------------Navigation----------------- */
+.nav-list li{
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+/* LoVe HAte */
+.nav-list a,
+.nav-list a:link,
+.nav-list a:visited{
+    display: block;
+    padding: 1em 0;
+    text-decoration: none;
+}
+
+.nav-list a:hover,
+.nav-list a:focus,
+.nav-list a.current{
+    background-color: #00add8;
+    color: inherit;
+}
+
+
+/* ---------------Mobile app section----------- */
 .btn {
     text-decoration: none;
     display: inline-block;
@@ -164,6 +186,19 @@ p{
 .btn:focus{
     color: inherit;
     background-color: #00ADD8;
+}
+
+/* -------------Simple Actions section---------- */
+.actions-list {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.actions-list li {
+    max-width: 50%;
+    padding: 1em;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 /* ----------Footer-------------- */
@@ -201,6 +236,20 @@ Desktop Styles
         color: white;
     }
 
+/* navigation */
+.nav-list{
+    display: flex;
+}
+.nav-list li {
+    flex: 1;
+    border: none;
+    border-right: 1px solid grey;
+}
+.nav-list li:last-child {
+    border: none;
+}
+
+
     /* App section */
     .app img {
         width: 40%;
@@ -214,4 +263,14 @@ Desktop Styles
     /* add clearfix to the parent */
 }
 
+/* Closing 600px media query */
 
+/* -----------------------------------------
+       Media query 800px and above
+-------------------------------------------- */
+
+@media screen and (min-width:800px) {
+    .actions-list li {
+        max-width: 20%;
+    }
+}
