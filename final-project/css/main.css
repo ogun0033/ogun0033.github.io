@@ -131,7 +131,128 @@ html {
 
     /* Styling the navigation */
 
-    nav{
+    .nav-list{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 30px;
+        color: #c78c06;
+        margin: 0 auto;
+        padding: 30px;
+      
+    }
+
+    .mobile-logo{
+        margin-right: auto;
+         }
+
+          /* LoVe HAte */
+    .nav-list a,
+    .nav-list a:link,
+    .nav-list a:visited{
+    display: block;
+    padding: 1em 0;
+    text-decoration: none;
+}
+
+    .nav-list a:hover,
+    .nav-list a:focus,
+    .nav-list a.current{
+    background-color:#c78c06;
+    color: #222;
+    }
+
+    .search{
+        display: none;
+    }
+    #search{
+        width: 93%;
+        padding: 15px;
+        font-size: 30px;   
+    }
+    
+    button{
+        border-color: #c78c06;
+        color: #c78c06;
+        background-color: #222;
+        padding: 20px;
+    }
+
+       /* Main content */
+    .background-image {
+        background: url("../images/main-banner.jpg") no-repeat center center;
+        background-size: cover;
+        position: relative;
+        margin: 0 auto;
+        height: 1000px;
+       
+    }
+
+    .background-image .background-colour{
+        position: absolute;
+        top: 10%;
+        background: rgba(0, 0, 0, 0.5);
+        padding-bottom: 13%;
+        
+    }
+ .background-image p{
+     color: white;
+ }
+
+    h1{
+        font-size: 120px;
+        margin-left: 30px;
+        top: 10%;
+        color: white;
+    }
+
+    h1, p{
+        margin-left: 30px;
+        margin-bottom: 15px;
+    }
+
+     p{
+        font-size: 25px;
+    }
+    .connect {
+        background-color: #c78c06;
+        text-decoration: none;
+        margin-left: 30px;
+        position: absolute;
+        padding: 40px;
+        font-size: 40px;
+    }
+
+    .connect .im{
+        margin-left: 20px;
+        font-size: 40px;
+      
+    }
+
+  /* .connect{
+       background-color: #c78c06;
+       margin-left: 30px;
+       padding: 30px;
+      font-size: 25px;
+   }
+*/
+  /* .connect a,
+   .connect a:link,
+   .connect a:visited{
+     display: block;
+     padding: 1em 0;
+     text-decoration: none;
+    }
+
+   .connect a:hover,
+   .connect a:focus,
+   .connect a.current{
+   background-color:#c78c06;
+   color: #222;
+   }
+*/
+
+   /* nav{
         background-color: #222;
         font-size: 30px;
     }
@@ -143,11 +264,11 @@ html {
         margin: 0 auto;
         max-width: 95%;
     }
-
+*/
 
 
     /* LoVe HAte */
-.nav-list a,
+/*.nav-list a,
 .nav-list a:link,
 .nav-list a:visited{
     display: block;
@@ -187,5 +308,5 @@ button{
     margin-bottom: 20px;
     font-size: 30px;   
 }
-
+*/
 
