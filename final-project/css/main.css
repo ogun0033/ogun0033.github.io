@@ -191,7 +191,7 @@ html {
        
     }
 
-    .background-image .background-colour{
+    .background-colour{
         position: absolute;
         top: 10%;
         background: rgba(0, 0, 0, 0.5);
@@ -300,6 +300,7 @@ h3{
 
 
 .digitalb {
+    color: white;
     background-color: #222;
     text-decoration: none;
     margin-left: 30px;
@@ -313,6 +314,141 @@ h3{
     font-size: 40px;
     color: white; 
 }
+
+
+/* Marketing */
+
+.marketing{
+    background-color: #ffe6ac;
+    margin-bottom: 20px;
+    padding-bottom: 130px;
+}
+
+
+.marketingb {
+    color: white;
+    background-color: #222;
+    text-decoration: none;
+    margin-left: 30px;
+    position: absolute;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.marketingb .im{
+    margin-left: 20px;
+    font-size: 40px;
+    color: white; 
+}
+
+
+/* Video Production */
+
+.video{
+    background-color: #ffe6ac;
+    margin-bottom: 20px;
+    padding-bottom: 130px;
+}
+
+
+.videob {
+    color: white;
+    background-color: #222;
+    text-decoration: none;
+    margin-left: 30px;
+    position: absolute;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.videob .im{
+    margin-left: 20px;
+    font-size: 40px;
+    color: white; 
+}
+
+
+
+/* Web Development */
+
+.web{
+    background-color: #ffe6ac;
+    margin-bottom: 20px;
+    padding-bottom: 130px;
+}
+
+
+.webb {
+    color: white;
+    background-color: #222;
+    text-decoration: none;
+    margin-left: 30px;
+    position: absolute;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.webb .im{
+    margin-left: 20px;
+    font-size: 40px;
+    color: white; 
+}
+
+
+/* Print */
+
+.print{
+    background-color: #ffe6ac;
+    margin-bottom: 20px;
+    padding-bottom: 130px;
+}
+
+
+.printb {
+    color: white;
+    background-color: #222;
+    text-decoration: none;
+    margin-left: 30px;
+    position: absolute;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.printb .im{
+    margin-left: 20px;
+    font-size: 40px;
+    color: white; 
+}
+
+
+/* Vision */
+
+.vision {
+    background: url("../images/vision.jpg") no-repeat center center;
+    background-size: cover;
+    position: relative;
+    margin: 0 auto;
+    height: 400px;
+    margin-top: 50px;
+    color: white; 
+}
+
+.our-vision{
+    position: absolute;
+
+}
+
+
+
+
+ /* .our-vision{
+    /* position: absolute; */
+    /* color: white;
+      */ 
+/* }
+.our-vision p{
+ color: white;
+} */
 
 
 
