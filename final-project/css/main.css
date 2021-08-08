@@ -3,48 +3,135 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 
@@ -54,230 +141,236 @@ html {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     box-sizing: border-box;
-    }
-    *,
-    *::after,
-    *::before{
-        box-sizing: inherit;
-    }
-    
-    body {
-        line-height: 1.5;
-    }
-    
-    .clearfix::after{
-        content: '';
-        display: table;
-        clear: both;
-    }
-    
-    img {
-        width: 100%;
-    }
-    
-    /* LoVe HAte */
-    a,
-    a:link,
-    a:visited{
-        color: inherit;
-    }
-    
-    a:hover,
-    a:focus {
-        color: #00add8;
-    }
-    
-    h1,
-    h2,
-    h3,
-    h4,
-    h5 {
-        font-weight: bold;
-        /* top left-right bottom */
-        margin: 1em 0 0.5em;
-    }
-    
-    h1{
-        font-size: 5.063rem;
-    }
-    h2{
-        font-size: 3.375rem;
-    }
-    
-    h3{
-        font-size: 2.25rem;
-    }
-    
-    h4{
-        font-size: 1.5rem;
-    }
-    
-    h5{
-        font-size: 1rem;
-    }
-    
-    p{
-        /* top-bottom left-right */
-        margin: 1em 0;
-    }
-    
-    .body-container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 1em;
-        background-color: white;
-    }
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    line-height: 1.5;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+img {
+    width: 100%;
+}
+
+/* LoVe HAte */
+a,
+a:link,
+a:visited {
+    color: inherit;
+}
+
+a:hover,
+a:focus {
+    color: #00add8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: bold;
+    /* top left-right bottom */
+    margin: 1em 0 0.5em;
+}
+
+h1 {
+    font-size: 5.063rem;
+}
+
+h2 {
+    font-size: 3.375rem;
+}
+
+h3 {
+    font-size: 2.25rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+p {
+    /* top-bottom left-right */
+    margin: 1em 0;
+}
+
+.body-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: white;
+}
 
 
-    /* Styling the navigation */
-    .header-container{
-        background-color: #222;
-    }
+/* Styling the navigation */
+.header-container {
+    background-color: #222;
+}
 
-    .nav-list{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        font-size: 30px;
-        color: #c78c06;
-        margin: 0 auto;
-        padding: 30px;
-      
-    }
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    color: #c78c06;
+    margin: 0 auto;
+    padding: 30px;
 
-    .mobile-logo{
-        margin-right: auto;
-         }
+}
 
-          /* LoVe HAte */
-    .nav-list a,
-    .nav-list a:link,
-    .nav-list a:visited{
+.mobile-logo {
+    margin-right: auto;
+}
+
+/* LoVe HAte */
+.nav-list a,
+.nav-list a:link,
+.nav-list a:visited {
     display: block;
     padding: 1em 0;
     text-decoration: none;
 }
 
-    .nav-list a:hover,
-    .nav-list a:focus,
-    .nav-list a.current{
-    background-color:#c78c06;
+.nav-list a:hover,
+.nav-list a:focus,
+.nav-list a.current {
+    background-color: #c78c06;
     color: #222;
-    }
+}
 
-    .search{
-        display: none;
-    }
-    #search{
-        width: 93%;
-        padding: 15px;
-        font-size: 30px;   
-    }
-    
-    button{
-        border-color: #c78c06;
-        color: #c78c06;
-        background-color: #222;
-        padding: 20px;
-    }
+.search {
+    display: none;
+}
 
-       /* Main content */
-    .background-image {
-        background: url("../images/main-banner.jpg") no-repeat center center;
-        background-size: cover;
-        position: relative;
-        margin: 0 auto;
-        height: 1000px;
-       
-    }
+#search {
+    width: 93%;
+    padding: 15px;
+    font-size: 30px;
+}
 
-    .background-colour{
-        position: absolute;
-        top: 10%;
-        background: rgba(0, 0, 0, 0.5);
-        padding-bottom: 13%;
-        
-    }
- .background-image p{
-     color: white;
- }
+button {
+    border-color: #c78c06;
+    color: #c78c06;
+    background-color: #222;
+    padding: 20px;
+}
 
-    h1{
-        font-size: 120px;
-        margin-left: 30px;
-        top: 10%;
-        color: white;
-    }
+/* Main content */
+.background-image {
+    background: url("../images/main-banner.jpg") no-repeat center center;
+    background-size: cover;
+    position: relative;
+    margin: 0 auto;
+    height: 1000px;
 
-    h1, p{
-        margin-left: 30px;
-        margin-bottom: 15px;
-    }
+}
 
-     p{
-        font-size: 25px;
-    }
-    .connect {
-        background-color: #c78c06;
-        text-decoration: none;
-        margin-left: 30px;
-        position: absolute;
-        padding: 40px;
-        font-size: 40px;
-    }
+.background-colour {
+    position: absolute;
+    top: 10%;
+    background: rgba(0, 0, 0, 0.5);
+    padding-bottom: 13%;
 
-    .connect .im{
-        margin-left: 20px;
-        font-size: 40px;
-      
-    }
+}
+
+.background-image p {
+    color: white;
+}
+
+h1 {
+    font-size: 120px;
+    margin-left: 30px;
+    top: 10%;
+    color: white;
+}
+
+h1,
+p {
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.connect {
+    background-color: #c78c06;
+    text-decoration: none;
+    margin-left: 30px;
+    position: absolute;
+    padding: 40px;
+    font-size: 40px;
+}
+
+.connect .im {
+    margin-left: 20px;
+    font-size: 40px;
+
+}
 
 
 
-    /* About us section */
+/* About us section */
 
-.about{
-        background-color: #ffe6ac;
-    }
+.about {
+    background-color: #ffe6ac;
+}
 
-.about-us{
+.about-us {
     margin-left: 30px;
 
 }
 
-.about-img{
+.about-img {
     margin-top: 30px;
     padding-right: 30px;
 }
 
-.about-text{
+.about-text {
     margin-top: 10px;
     padding-bottom: 50px;
-} 
+}
 
- #about{
+#about {
     font-size: 120px;
     margin-top: 20px;
     margin-bottom: 5px;
-  
+
 }
 
-.aboutp{
+.aboutp {
     margin-left: 10px;
-    
+
 }
- 
+
 
 /* Services section */
 
-.services{
+.services {
     margin-left: 30px;
     margin-right: 30px;
 }
 
 
 
-#ourservices{
+#ourservices {
     font-size: 100px;
     margin-top: 40px;
     margin-bottom: 10px;
@@ -285,13 +378,13 @@ html {
 
 
 /* Digital Transformation */
-.digital{
+.digital {
     background-color: #ffe6ac;
     margin-bottom: 20px;
     padding-bottom: 130px;
 }
 
-h3{
+h3 {
     font-size: 50px;
     margin-left: 20px;
     margin-top: 20px;
@@ -309,16 +402,16 @@ h3{
     font-size: 30px;
 }
 
-.digitalb .im{
+.digitalb .im {
     margin-left: 20px;
     font-size: 40px;
-    color: white; 
+    color: white;
 }
 
 
 /* Marketing */
 
-.marketing{
+.marketing {
     background-color: #ffe6ac;
     margin-bottom: 20px;
     padding-bottom: 130px;
@@ -335,16 +428,16 @@ h3{
     font-size: 30px;
 }
 
-.marketingb .im{
+.marketingb .im {
     margin-left: 20px;
     font-size: 40px;
-    color: white; 
+    color: white;
 }
 
 
 /* Video Production */
 
-.video{
+.video {
     background-color: #ffe6ac;
     margin-bottom: 20px;
     padding-bottom: 130px;
@@ -361,17 +454,17 @@ h3{
     font-size: 30px;
 }
 
-.videob .im{
+.videob .im {
     margin-left: 20px;
     font-size: 40px;
-    color: white; 
+    color: white;
 }
 
 
 
 /* Web Development */
 
-.web{
+.web {
     background-color: #ffe6ac;
     margin-bottom: 20px;
     padding-bottom: 130px;
@@ -388,16 +481,16 @@ h3{
     font-size: 30px;
 }
 
-.webb .im{
+.webb .im {
     margin-left: 20px;
     font-size: 40px;
-    color: white; 
+    color: white;
 }
 
 
 /* Print */
 
-.print{
+.print {
     background-color: #ffe6ac;
     margin-bottom: 20px;
     padding-bottom: 130px;
@@ -414,10 +507,10 @@ h3{
     font-size: 30px;
 }
 
-.printb .im{
+.printb .im {
     margin-left: 20px;
     font-size: 40px;
-    color: white; 
+    color: white;
 }
 
 
@@ -430,20 +523,20 @@ h3{
     margin: 0 auto;
     height: 400px;
     margin-top: 50px;
-    color: white; 
+    color: white;
 }
 
-.our-vision{
+.our-vision {
     position: absolute;
 
 }
 
 
-.visionp{
+.visionp {
     margin-bottom: 50px;
 }
 
-.visionb{
+.visionb {
     padding: 30px;
     background-color: rgba(0, 0, 0, 0.5);
     margin-left: 30px;
@@ -451,33 +544,123 @@ h3{
     text-decoration: none;
     font-size: 30px;
     margin-top: 40px;
-   
+
+}
+
+.visionb .im {
+    margin-left: 20px;
+    font-size: 40px;
 }
 
 
 
- /* .our-vision{
-    /* position: absolute; */
-    /* color: white;
-      */ 
-/* }
-.our-vision p{
- color: white;
+/* Team */
+.team {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+
+#team {
+    font-size: 100px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+
+
+/* John Doe */
+
+.johnbgd {
+    background-color: #ffe6ac;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+hr {
+    display: block;
+    border: 0;
+    border-top: 3px solid #c78c06;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+
+b{
+    margin-left: 20px;
+    font-weight: bolder;
+}
+
+.johnd{
+    margin-bottom: 5px;
+}
+
+
+
+/* Bob Rite */
+
+.bobbgd {
+    background-color: #ffe6ac;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+
+.bobr{
+    margin-bottom: 5px;
+}
+
+
+/* Contact */
+
+.contact {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+
+
+
+
+/* hr{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #c78c06;
+    border-style: inset;
+    border-width: 1px;
+} */
+
+/* Digital Transformation */
+/* .john{
+    background-color: #ffe6ac;
+    margin-bottom: 20px;
+    padding-bottom: 130px; */
+
+
+/* h3{
+    font-size: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
 } */
 
 
 
 
-
-
-  /* .connect{
+/* .connect{
        background-color: #c78c06;
        margin-left: 30px;
        padding: 30px;
       font-size: 25px;
    }
 */
-  /* .connect a,
+/* .connect a,
    .connect a:link,
    .connect a:visited{
      display: block;
@@ -493,7 +676,7 @@ h3{
    }
 */
 
-   /* nav{
+/* nav{
         background-color: #222;
         font-size: 30px;
     }
@@ -508,7 +691,7 @@ h3{
 */
 
 
-    /* LoVe HAte */
+/* LoVe HAte */
 /*.nav-list a,
 .nav-list a:link,
 .nav-list a:visited{
@@ -550,4 +733,3 @@ button{
     font-size: 30px;   
 }
 */
-
