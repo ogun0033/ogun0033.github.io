@@ -227,7 +227,8 @@ p {
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-size: 30px;
+    font-size: 36px;
+    /* font-size: 30px; */
     color: #c78c06;
     margin: 0 auto;
     padding: 30px;
@@ -261,7 +262,8 @@ p {
 #search {
     width: 93%;
     padding: 15px;
-    font-size: 30px;
+    font-size: 36px;
+    /* font-size: 30px; */
 }
 
 button {
@@ -269,6 +271,8 @@ button {
     color: #c78c06;
     background-color: #222;
     padding: 20px;
+    /* i added float here */
+    float: right;
 }
 
 /* Main content */
@@ -307,7 +311,8 @@ p {
 }
 
 p {
-    font-size: 25px;
+    font-size: 24px;
+    /* font-size: 25px; */
 }
 
 .connect {
@@ -316,12 +321,14 @@ p {
     margin-left: 30px;
     position: absolute;
     padding: 40px;
-    font-size: 40px;
+    font-size: 36px;
+    /* font-size: 40px; */
 }
 
 .connect .im {
     margin-left: 20px;
-    font-size: 40px;
+    font-size: 36px;
+    /* font-size: 40px; */
 
 }
 
@@ -349,7 +356,8 @@ p {
 }
 
 #about {
-    font-size: 120px;
+    font-size: 80px;
+    /* font-size: 120px; */
     margin-top: 20px;
     margin-bottom: 5px;
 
@@ -371,7 +379,8 @@ p {
 
 
 #ourservices {
-    font-size: 100px;
+    font-size: 80px;
+    /* font-size: 100px; */
     margin-top: 40px;
     margin-bottom: 10px;
 }
@@ -385,7 +394,8 @@ p {
 }
 
 h3 {
-    font-size: 50px;
+    font-size: 54px;
+    /* font-size: 50px; */
     margin-left: 20px;
     margin-top: 20px;
 }
@@ -393,18 +403,20 @@ h3 {
 
 
 .digitalb {
-    color: white;
+    /* color: white; */
     background-color: #222;
     text-decoration: none;
     margin-left: 30px;
     position: absolute;
     padding: 30px;
-    font-size: 30px;
+    font-size: 36px;
+    /* font-size: 30px; */
 }
 
 .digitalb .im {
     margin-left: 20px;
-    font-size: 40px;
+    font-size: 36px;
+    /* font-size: 40px; */
     color: white;
 }
 
@@ -419,18 +431,20 @@ h3 {
 
 
 .marketingb {
-    color: white;
+    /* color: white; */
     background-color: #222;
     text-decoration: none;
     margin-left: 30px;
     position: absolute;
     padding: 30px;
-    font-size: 30px;
+    font-size: 36px;
+    /* font-size: 30px; */
 }
 
 .marketingb .im {
     margin-left: 20px;
-    font-size: 40px;
+    font-size: 36px;
+    /* font-size: 40px; */
     color: white;
 }
 
@@ -445,18 +459,20 @@ h3 {
 
 
 .videob {
-    color: white;
+    /* color: white; */
     background-color: #222;
     text-decoration: none;
     margin-left: 30px;
     position: absolute;
     padding: 30px;
-    font-size: 30px;
+    font-size: 36px;
+    /* font-size: 30px; */
 }
 
 .videob .im {
     margin-left: 20px;
-    font-size: 40px;
+    font-size: 36px;
+    /* font-size: 40px; */
     color: white;
 }
 
@@ -472,18 +488,20 @@ h3 {
 
 
 .webb {
-    color: white;
+    /* color: white; */
     background-color: #222;
     text-decoration: none;
     margin-left: 30px;
     position: absolute;
     padding: 30px;
-    font-size: 30px;
+    font-size: 36px;
+    /* font-size: 30px; */
 }
 
 .webb .im {
     margin-left: 20px;
-    font-size: 40px;
+    font-size: 36px;
+    /* font-size: 40px; */
     color: white;
 }
 
@@ -498,18 +516,20 @@ h3 {
 
 
 .printb {
-    color: white;
+    /* color: white; */
     background-color: #222;
     text-decoration: none;
     margin-left: 30px;
     position: absolute;
     padding: 30px;
-    font-size: 30px;
+    font-size: 36px;
+    /* font-size: 30px; */
 }
 
 .printb .im {
     margin-left: 20px;
-    font-size: 40px;
+    font-size: 36px;
+    /* font-size: 40px; */
     color: white;
 }
 
@@ -542,14 +562,16 @@ h3 {
     margin-left: 30px;
     border: solid 1px #c78c06;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 36px;
+    /* font-size: 30px; */
     margin-top: 40px;
 
 }
 
 .visionb .im {
     margin-left: 20px;
-    font-size: 40px;
+    font-size: 36px;
+    /* font-size: 40px; */
 }
 
 
@@ -563,7 +585,8 @@ h3 {
 
 
 #team {
-    font-size: 100px;
+    font-size: 80px;
+    /* font-size: 100px; */
     margin-top: 40px;
     margin-bottom: 10px;
 }
