@@ -272,7 +272,7 @@ button {
     background-color: #222;
     padding: 20px;
     /* i added float here */
-    float: right;
+    /* float: right; */
 }
 
 /* Main content */
