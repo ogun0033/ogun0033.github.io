@@ -818,7 +818,39 @@ footer{
 
 /* Desktop Styles */
 @media screen and (min-width: 760px) {
-    
+
+    .nav-list{
+        display: flex;
+        font-size: 16px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+
+    .nav-list li {
+        flex: 1;
+    }
+     
+    .mobile-logo{
+
+        width: auto;
+        margin-right: 40px;
+        margin-top: 0;
+        justify-self: start;
+    }
+
+#search{
+    padding: 10px;
+    flex: 2;
+}
+
+
+/* #search{
+    width: 21%
+} */ 
+
+
+
 /* .nav-list{
     display:flex;
     flex-direction: row;
@@ -901,7 +933,7 @@ h1, p{
 /* About us section */
 
 .about-us{
-    display: flex;
+    display: flex; 
     margin-left: 100px;
     margin-right: 100px;
    
@@ -934,9 +966,75 @@ margin-top: 0;
 
 /* Services section */
 
+.services{
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1em;
+}
+
+.digital{
+grid-column: 1 / 2;
+}
+
+
+ /* .marketing{
+    grid-column: 2 /4;
+    /* grid-row: 1 /2; */
+    
+
+  
 
 
 
+
+
+
+
+/* .digital{
+    grid-column: 1 / 3;
+} 
+
+.marketing{
+    grid-column: 2 span 2 ;
+
+}  */
+
+
+
+/* Vision section */
+.our-vision{
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+
+/* Team */
+.team{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+
+
+.team-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+
+.john{
+    grid-column: 2;
+    grid-row: 1;
+}
 /* .services{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -1075,8 +1173,6 @@ margin-top: 0;
 aboutp{
     margin-left: 2px;
 } */
-
-
 
 
 
