@@ -224,25 +224,27 @@ p {
     background-color: #222;
     width: 100%;
     margin: 0 auto;
-    /* display: flex;
-    flex-direction: column; */
+
 }
 
 .nav-list {
-    /* display: flex;
-    flex-direction: column; */
+
     text-align: center;
     font-size: 22px;
-    /* font-size: 30px; */
     color: #c78c06;
     margin: 0 auto;
     padding: 30px;
 
 }
 
+
 .mobile-logo {
-    /* display: inline-block; */
-    /* justify-content: start; */
+    text-align: left;
+}
+
+
+
+.mobile-logo img {
     width: 150px;
 }
 
@@ -269,42 +271,25 @@ p {
 }
 
 
-/*  
- .nav-form{
-     font-size: 22px;
-    
-/* width: 100%; */
-     /* display: flex;
-    flex-direction: column; 
-    width: 100%;
-    margin: 0 auto;   */
-  
 
 #search {
     width: 89%;
     padding: 15px;
-    font-size:  22px; 
+    font-size: 22px;
     margin: 0 auto;
-    /* margin-right: auto;
-    margin-left: 0px; */
-    /* flex: 3 3 3; */
-    /* font-size: 30px; */
+    margin-right: -5px;
 }
 
 button {
     border-color: #c78c06;
     color: #c78c06;
     background-color: #222;
-  padding: 10px;
-  padding-top: 0;
-  font-size: 40px;
-    width: 10%;
-    /* margin-left: 0px; */
-    /* font-size: 22px; */
-    /* flex: 0.5 0.5 0.5; */
-    /* i added float here */
-    /* float: right; */
+    padding: 10px;
+    padding-top: 0;
+    font-size: 40px;
 }
+
+
 
 /* Main content */
 .background-image {
@@ -313,16 +298,16 @@ button {
     position: relative;
     margin: 0 auto;
     height: 650px;
-
 }
+
 
 .background-colour {
     position: absolute;
     top: 10%;
     background: rgba(0, 0, 0, 0.5);
     padding-bottom: 17%;
-
 }
+
 
 .background-image p {
     color: white;
@@ -343,7 +328,6 @@ p {
 
 p {
     font-size: 14px;
-    /* font-size: 25px; */
 }
 
 .connect {
@@ -353,14 +337,11 @@ p {
     position: absolute;
     padding: 30px;
     font-size: 22px;
-    /* font-size: 40px; */
 }
 
 .connect .im {
     margin-left: 20px;
     font-size: 22px;
-    /* font-size: 40px; */
-
 }
 
 
@@ -386,13 +367,14 @@ p {
     padding-bottom: 30px;
 }
 
+
 #about {
     font-size: 50px;
-    /* font-size: 120px; */
     margin-top: 20px;
     margin-bottom: 5px;
 
 }
+
 
 .aboutp {
     margin-left: 5px;
@@ -412,7 +394,6 @@ p {
 
 #ourservices {
     font-size: 50px;
-    /* font-size: 100px; */
     margin-top: 40px;
     margin-bottom: 10px;
     color: black;
@@ -426,17 +407,19 @@ p {
     padding-bottom: 120px;
 }
 
-.digih{
+
+.digih {
     color: black;
 }
 
-.digip{
+
+.digip {
     color: black;
 }
+
 
 h3 {
     font-size: 33px;
-    /* font-size: 50px; */
     margin-left: 20px;
     margin-top: 20px;
 }
@@ -450,19 +433,15 @@ h3 {
     position: absolute;
     padding: 30px;
     font-size: 22px;
-    /* font-size: 30px; */
 }
 
 .digitalb .im {
     margin-left: 20px;
     font-size: 22px;
-    /* font-size: 40px; */
-    /* color: white; */
 }
 
 
 /* Marketing */
-
 .marketing {
     background-color: #ffe6ac;
     margin-bottom: 20px;
@@ -470,48 +449,43 @@ h3 {
 }
 
 
-.markh{
+.markh {
     color: black;
 }
 
-.markp{
+.markp {
     color: black;
 }
 
 
 
 .marketingb {
-    /* color: white; */
     background-color: #222;
     text-decoration: none;
     margin-left: 30px;
     position: absolute;
     padding: 30px;
     font-size: 22px;
-    /* font-size: 30px; */
 }
 
 .marketingb .im {
     margin-left: 20px;
     font-size: 22px;
-    /* font-size: 40px; */
-    /* color: white;*/
-} 
+}
 
 
 /* Video Production */
-
 .videop {
     background-color: #ffe6ac;
     margin-bottom: 20px;
     padding-bottom: 120px;
 }
 
-.vidh{
+.vidh {
     color: black;
 }
 
-.vidp{
+.vidp {
     color: black;
 }
 
@@ -524,20 +498,16 @@ h3 {
     position: absolute;
     padding: 30px;
     font-size: 22px;
-    /* font-size: 30px; */
 }
 
 .videob .im {
     margin-left: 20px;
     font-size: 22px;
-    /* font-size: 40px; */
-    /* color: white; */
 }
 
 
 
 /* Web Development */
-
 .web {
     background-color: #ffe6ac;
     margin-bottom: 20px;
@@ -545,65 +515,59 @@ h3 {
 }
 
 
-.webh{
+.webh {
     color: black;
 }
 
 
-.webp{
+.webp {
     color: black;
 }
 
 .webb {
-    /* color: white; */
+
     background-color: #222;
     text-decoration: none;
     margin-left: 30px;
     position: absolute;
     padding: 30px;
     font-size: 22px;
-    /* font-size: 30px; */
 }
 
 .webb .im {
     margin-left: 20px;
     font-size: 22px;
-    /* font-size: 40px; */
-    /* color: white; */
 }
 
 
-/* Print */
 
+/* Print */
 .print {
     background-color: #ffe6ac;
     margin-bottom: 20px;
     padding-bottom: 120px;
 }
 
-.printh{
-color: black;
-}
-
-.printp{
+.printh {
     color: black;
 }
+
+.printp {
+    color: black;
+}
+
 .printb {
-    /* color: white; */
     background-color: #222;
     text-decoration: none;
     margin-left: 30px;
     position: absolute;
     padding: 30px;
     font-size: 22px;
-    /* font-size: 30px; */
 }
 
 .printb .im {
     margin-left: 20px;
     font-size: 22px;
-    /* font-size: 40px; */
-    /* color: white; */
 }
 
 
@@ -619,9 +583,9 @@ color: black;
     color: white;
 }
 
+
 .our-vision {
     position: absolute;
-
 }
 
 
@@ -636,7 +600,6 @@ color: black;
     border: solid 1px #c78c06;
     text-decoration: none;
     font-size: 22px;
-    /* font-size: 30px; */
     margin-top: 40px;
 
 }
@@ -644,7 +607,6 @@ color: black;
 .visionb .im {
     margin-left: 20px;
     font-size: 22px;
-    /* font-size: 40px; */
 }
 
 
@@ -659,7 +621,6 @@ color: black;
 
 #team {
     font-size: 50px;
-    /* font-size: 100px; */
     margin-top: 40px;
     margin-bottom: 10px;
 }
@@ -667,7 +628,6 @@ color: black;
 
 
 /* John Doe */
-
 .johnbgd {
     background-color: #ffe6ac;
     margin-bottom: 20px;
@@ -685,19 +645,18 @@ hr {
 }
 
 
-b{
+b {
     margin-left: 20px;
     font-weight: bolder;
 }
 
-.johnd{
+.johnd {
     margin-bottom: 5px;
 }
 
 
 
 /* Bob Rite */
-
 .bobbgd {
     background-color: #ffe6ac;
     margin-bottom: 20px;
@@ -705,30 +664,31 @@ b{
 }
 
 
-.bobr{
+.bobr {
     margin-bottom: 5px;
 }
 
 
-/* Contact */
 
+
+/* Contact */
 .contact {
     margin-left: 30px;
     margin-right: 30px;
 }
 
 
-#contactus{
+#contactus {
     font-size: 50px;
 }
 
-.messg{
+.messg {
     margin-left: 15px;
 
 }
 
 
-.fname{
+.fname {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -752,40 +712,40 @@ textarea {
 }
 
 
-.send{
+.send {
     color: #c78c06;
     background-color: #222;
     font-size: 22px;
     padding: 10px;
-    
+
 }
 
 
+
 /* Hours of operation */
-
-
-.oper{
+.oper {
     font-size: 50px;
 }
 
 
 /* Styling the table */
-
-table{
-    /* border: 1px solid; */
+table {
     width: 100%;
     border-collapse: collapse;
-   
 }
 
-thead{
+
+thead {
     background-color: #ffe6ac;
 }
 
-table, td, th{
-        border: 2px solid;
-        padding: 20px;
-        font-size: 14px;
+
+table,
+td,
+th {
+    border: 2px solid;
+    padding: 20px;
+    font-size: 14px;
 }
 
 
@@ -793,35 +753,37 @@ table, td, th{
 
 /* Styling the location */
 
- .loc{
-   margin-left: 0;
+.loc {
+    margin-left: 0;
 
-} 
+}
 
 
-iframe{
+iframe {
     width: 100%;
 }
 
 
 
 /* Styling the footer */
-footer{
+footer {
     background-color: #222;
     color: #c78c06;
     font-size: 14px;
     padding: 5px;
     margin-top: 20px;
-   
 }
 
 
-/* Desktop Styles */
+
+
+/*------------ Desktop Styles------------ */
 @media screen and (min-width: 760px) {
 
-    .nav-list{
+    .nav-list {
         display: flex;
         font-size: 16px;
+        align-items: center;
         margin-left: 100px;
         margin-right: 100px;
     }
@@ -830,501 +792,328 @@ footer{
     .nav-list li {
         flex: 1;
     }
-     
-    .mobile-logo{
 
-        width: auto;
+    .mobile-logo {
         margin-right: 40px;
         margin-top: 0;
-        justify-self: start;
     }
 
-#search{
-    padding: 10px;
-    flex: 2;
-}
+    .nav-list .nav-form {
+        flex: 1 150px;
 
+    }
 
-/* #search{
-    width: 21%
-} */ 
+    .nav-form form {
+        display: flex;
+    }
 
+    #search {
+        padding: 5px;
+        flex: 2;
+        font-size: 20px;
+    }
 
 
-/* .nav-list{
-    display:flex;
-    flex-direction: row;
-    align-items: flex-start;
-    margin: 0 auto;} */
 
-    /* justify-content: center; */
-    /* font-size: 16px; */
-    /* padding: 20px; */
-    /* margin-left: 40px;
-    margin-right: 40px;
-    padding-bottom: 5px; */
-    /* text-align: center; */
-    /* padding-left: 30px; */
 
-/* .mobile-logo
-{
-    width: 100px;
-} */
+    /* Main content */
+    .background-image {
+        height: 460px
+    }
 
-/* LoVe HAte */
-/* .nav-list a,
-.nav-list a:link
-.nav-list a:visited{
-    padding-left: 40px; */
-    /* padding: 40px; */
-    /* margin: 10px
-}
+    .background-colour {
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-bottom: 8%;
+    }
 
-#search{
-    width: 21%
-} */
 
+    h1 {
+        margin-top: 10px;
+        font-size: 68px;
+        margin-left: 10px;
+    }
 
 
+    p {
+        font-size: 13px;
+    }
 
+    h1,
+    p {
+        margin-left: 10px;
+    }
 
 
-/* Main content */
-.background-image {
-    height: 460px
-}
+    .connect {
+        font-size: 20px;
+        padding: 25px;
+        margin-left: 10px;
+    }
 
-.background-colour{
-    margin-left: 100px;
-    margin-right: 100px;
-   padding-bottom: 8%;
-}
 
+    .connect .im {
+        font-size: 20px;
+    }
 
-h1{
-    margin-top: 10px;
-    font-size: 68px;
-    margin-left: 10px;
-}
 
 
-p{
-    font-size: 13px;
-}
+    /* About us section */
 
-h1, p{
-    margin-left: 10px;
-}
+    .about-us {
+        display: flex;
+        margin-left: 100px;
+        margin-right: 100px;
 
+    }
 
-.connect{
-    font-size: 20px;
-    padding: 25px;
-    margin-left: 10px;
-}
+    .about-img {
+        width: 50%;
+        height: 235px;
 
+    }
 
-.connect .im{
-    font-size: 20px;
-}
 
 
+    .about-text {
+        margin-top: 0;
 
-/* About us section */
+    }
 
-.about-us{
-    display: flex; 
-    margin-left: 100px;
-    margin-right: 100px;
-   
-}
+    #about {
+        font-size: 45px;
+    }
 
-.about-img{
-    width: 50%;
-    height: 235px;
-  
-    /* margin-right: 2px; */
 
-}
+    .aboutp {
+        margin-left: 0;
+    }
 
 
 
-.about-text{
-margin-top: 0;
+    /* Services section */
 
-}
+    .services {
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 5px;
 
-#about{
-    font-size: 45px;
-}
+    }
 
-
-.aboutp{
-    margin-left: 0;
-}
-
-
-/* Services section */
-
-.services{
-    margin-left: 100px;
-    margin-right: 100px;
-    
-}
-
-.grid{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 1em;
-}
-
-.digital{
-grid-column: 1 / 2;
-}
-
-
- /* .marketing{
-    grid-column: 2 /4;
-    /* grid-row: 1 /2; */
-    
-
-  
-
-
-
-
-
-
-
-/* .digital{
-    grid-column: 1 / 3;
-} 
-
-.marketing{
-    grid-column: 2 span 2 ;
-
-}  */
-
-
-
-/* Vision section */
-.our-vision{
-    margin-left: 100px;
-    margin-right: 100px;
-    
-}
-
-
-/* Team */
-.team{
-    margin-right: 100px;
-    margin-left: 100px;
-}
-
-
-
-.team-grid{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-}
-
-
-.john{
-    grid-column: 2;
-    grid-row: 1;
-}
-/* .services{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1em;
-}
-
-.digital{
-    grid-column: 1 span 3;
-} */
-
-
-
-
-
-
-/* .services{
+    .grid {
         display: grid;
-        grid-template-columns: repeat(3, auto);
+        grid-template-columns: repeat(6, 1fr);
         grid-template-rows: repeat(2, auto);
-        gap: 1em; 
+        grid-template-areas:
 
-}
-
- .digital{
-    grid-column: 1 span 2;
-}
-
-
-.marketing{
-    grid-column: 3 span 2;
-}  */ 
-
-        /* grid-template-areas: 
-        "head head1 head2"
-        "left right1 right2";
-        
+            "digital digital digital marketing marketing marketing"
+            "video video web web print print"
+        ;
         gap: 1em;
     }
-    
-    .digital{
-        grid-area: head head1;
+
+    .digital {
+        grid-area: digital;
     }
 
-    .marketing{
-        grid-area: head1 head2;
-
-    }
-
-.videop{
-    grid-area: left;
-}
-
-.web{
-    grid-area: right1;
-}
-
-.print{
-    grid-area: right2;
-}
- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /* grid-template-rows: repeat(3 fr);
-    column-gap: 1em;
-} */
-
-
-
-
-
-/* .about-img {
-    float: left;  
-    margin-left: 30px; 
-} */
-
-
-/* .about-us{
-    margin-top: 0;
-    width: 99%;
-    margin: 0 auto;
-    box-sizing: border-box;
-    margin-left: 100px;
-    margin-right: 100px;
-    padding-bottom: 50px;
-    
-    }
-    
-    .clearfix:after {
-        content: "";
-        display: table;
-        clear: both;
-      }
-      
-    
-    .about-img {
-        float: left;  
-        width: 49%;   
-        
-    } */
-/* .about-text{
-    width: 30%;
-} */
-
-/* .about-us{
-    display: flex;
-    justify-content: center;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-.about-img{
-    width: 50%;
-    margin-bottom: 15px;
-    margin-top: 15px;
-}
-
-
-#about{
-    font-size: 43px;
-}
-
-aboutp{
-    margin-left: 2px;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .marketing {
+        grid-area: marketing;
     }
 
 
 
+    .videop {
+        grid-area: video;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* hr{
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: auto;
-    margin-left: auto;
-    color: #c78c06;
-    border-style: inset;
-    border-width: 1px;
-} */
-
-/* Digital Transformation */
-/* .john{
-    background-color: #ffe6ac;
-    margin-bottom: 20px;
-    padding-bottom: 130px; */
-
-
-/* h3{
-    font-size: 50px;
-    margin-left: 20px;
-    margin-top: 20px;
-} */
-
-
-
-
-/* .connect{
-       background-color: #c78c06;
-       margin-left: 30px;
-       padding: 30px;
-      font-size: 25px;
-   }
-*/
-/* .connect a,
-   .connect a:link,
-   .connect a:visited{
-     display: block;
-     padding: 1em 0;
-     text-decoration: none;
     }
 
-   .connect a:hover,
-   .connect a:focus,
-   .connect a.current{
-   background-color:#c78c06;
-   color: #222;
-   }
-*/
 
-/* nav{
-        background-color: #222;
-        font-size: 30px;
+    .web {
+        grid-area: web;
+
     }
-   
 
-    .nav-list li{
-       color: #c78c06;
+    .print {
+        grid-area: print;
+    }
+
+
+    .digitalb {
         text-align: center;
-        margin: 0 auto;
-        max-width: 95%;
+        margin-left: 10px;
+        padding-left: 150px;
+        padding-right: 140px;
     }
-*/
+
+    .marketingb {
+        text-align: center;
+        margin-left: 10px;
+        padding-left: 150px;
+        padding-right: 100px;
+        margin-top: 20px;
+    }
 
 
-/* LoVe HAte */
-/*.nav-list a,
-.nav-list a:link,
-.nav-list a:visited{
-    display: block;
-    padding: 1em 0;
-    text-decoration: none;
+
+    .videob {
+        text-align: center;
+        margin-left: 10px;
+        padding-left: 50px;
+        padding-right: 85px;
+    }
+
+
+    .webb {
+        text-align: center;
+        margin-left: 10px;
+        padding-left: 50px;
+        padding-right: 85px;
+        margin-top: 10px;
+    }
+
+
+    .printb {
+        text-align: center;
+        margin-left: 10px;
+        padding-left: 50px;
+        padding-right: 85px;
+        /* margin-top: 0px; */
+    }
+
+
+
+
+
+    .webh {
+        font-size: 28px;
+    }
+
+    /* Vision section */
+    .our-vision {
+        margin-left: 100px;
+        margin-right: 100px;
+
+    }
+
+
+
+
+    /* Team */
+    .team {
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+
+
+    .johnbgd {
+        display: flex;
+
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .john-img {
+        display: block;
+        flex: 1;
+
+    }
+
+    .john {
+        flex: 1;
+    }
+
+    .bobbgd {
+        display: flex;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .bob-img {
+        display: block;
+        flex: 1;
+        order: 2;
+        width: 50%;
+    }
+
+    .bob {
+        flex: 1;
+    }
+
+    /* Contact us */
+    .contact {
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+
+
+    .contact-grid {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas:
+            "message message message location location location"
+            "hours hours hours hours hours hours"
+        ;
+        gap: 1em;
+
+    }
+
+    .form-border {
+        grid-area: message;
+    }
+
+
+    .hours {
+        grid-area: hours;
+    }
+
+    .location {
+        grid-area: location;
+    }
+
+
+
+    #contactus {
+        font-size: 45px;
+    }
+
+
+    .messg {
+        margin-left: 0;
+    }
+
+
+    .send {
+        font-size: 20px;
+        padding: 5px;
+    }
+
+
+    .oper {
+        font-size: 45px;
+    }
+
+
+
+    .table,
+    td,
+    th {
+        font-size: 13px;
+        padding: 15px;
+        border: 1px solid;
+    }
+
+
+    /*  Styling the footer */
+    footer {
+        font-size: 13px;
+
+    }
+
+    footer p {
+        margin-left: 100px;
+    }
+
+
+
 }
-
-.nav-list a:hover,
-.nav-list a:focus,
-.nav-list a.current{
-    background-color:#c78c06;
-    color: #222;
-}
-
-.mobile-logo{
-    width: 150px;
-}
-
-.mobile-logo:hover{
-    background-color: #c78c06;
-}
-
-.search{
-    display: none;
-}
-
-button{
-    border-color: #c78c06;
-    color: #c78c06;
-    background-color: #222;
-    padding: 20px;
-}
-
-#search{
-    width: 93%;
-    padding: 15px;
-    margin-bottom: 20px;
-    font-size: 30px;   
-}
-*/
